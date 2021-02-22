@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '6.0.3.5'
 
 # Use sqlite3 as the database for Active Record
 gem 'mysql2'
@@ -31,7 +31,7 @@ end
 
 gem 'anjlab-bootstrap-rails', '~> 3.0.0.3', :require => 'bootstrap-rails'
 gem "font-awesome-rails", "~> 3.2.1.3"
-gem "acts-as-taggable-on", "~> 2.4.1"
+gem "acts-as-taggable-on", "~> 3.1.0"
 gem "will_paginate", "~> 3.0.5"
 gem "will_paginate-bootstrap", "~> 1.0.0"
 

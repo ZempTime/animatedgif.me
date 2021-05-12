@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '5.2.4.6'
 
 # Use sqlite3 as the database for Active Record
 gem 'mysql2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.8'
+gem 'sass-rails', '~> 5.0.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -26,11 +26,11 @@ gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 gem 'anjlab-bootstrap-rails', '~> 3.0.0.3', :require => 'bootstrap-rails'
-gem "font-awesome-rails", "~> 4.7.0.5"
+gem "font-awesome-rails", "~> 4.7.0.4"
 gem "acts-as-taggable-on", "~> 3.1.0"
 gem "will_paginate", "~> 3.0.5"
 gem "will_paginate-bootstrap", "~> 1.0.0"

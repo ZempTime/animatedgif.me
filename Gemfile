@@ -7,13 +7,13 @@ gem 'rails', '6.0.3.5'
 gem 'mysql2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.8'
+gem 'sass-rails', '~> 4.0.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.2.2'
+gem 'coffee-rails', '~> 4.0.1'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -30,8 +30,8 @@ group :doc do
 end
 
 gem 'anjlab-bootstrap-rails', '~> 3.0.0.3', :require => 'bootstrap-rails'
-gem "font-awesome-rails", "~> 4.7.0.5"
-gem "acts-as-taggable-on", "~> 3.1.0"
+gem "font-awesome-rails", "~> 3.2.1.3"
+gem "acts-as-taggable-on", "~> 2.4.1"
 gem "will_paginate", "~> 3.0.5"
 gem "will_paginate-bootstrap", "~> 1.0.0"
 
